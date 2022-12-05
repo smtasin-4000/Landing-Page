@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+   padding: 0;
+    
+   /* background-color: #24252A;  */
+}
+.p{
+    padding: 0 10%;
+}
+.p-first{
+    background-color: #24252A;
+   
+  
+}
+
+
+li, a, button{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.logo{
+   width: 60px;
+   height: 60px;
+    cursor: pointer;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10;
+    
+}
+.nav_links{
+  
+    list-style: none;
+    
+  
+}
+.nav_links li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.nav_links li a:hover{
+    transition:all 0.5s ease 0s;
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:padding 0.3s ease 0s;
+}
+button:hover{
+    background-color:  rgba(0, 136 ,169, 0.8);
+    padding: 15px 30px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: #ecf0f1;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+.banner img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+ 
+}
+
+.banner-left{
+    width: 40%;
+    height: 40%;
+   
+}
+.banner-left p {
+    padding: 20px 0;
+}
+
+.p-second{
+    background-color: #c0c0c0;
+    font-family: 'Ubuntu';
+}
+
+.card{
+    width: 30%;
+    height: 20%;
+    
+}
+.card img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    border: #00313e58 2px solid;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.card-line{
+    display: flex;
+    justify-content: space-between;
+}
+.card p{
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.cards h1 {
+   padding-bottom:40px ;
+    text-align: center;
+}
+.p.p-second{
+    padding: 40px 10%;
+}
+.p.p-first{
+    padding-bottom: 40px;
+}
+.p.p-third{
+    background-color: rgb(20, 20, 20);
+    color: rgb(223, 223, 223);
+    padding: 40px 10%;
+    font-size: 20px;
+}
+.author{
+    padding-left: 70%;
+    padding-top:30px ;
+}
+.p.p-fourth{
+background-color: #434242;
+padding: 40px;
+font-family: 'Ubuntu';
+font-size: larger;
+color: whitesmoke;
+}
+.signUp{
+background-color: #8BBCCC;
+border-radius: 10px;
+padding: 20px;
+
+}
+.signUp p{
+    padding: 10px;
+}
+.signUp-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.signUp-box button{
+    position: absolute;
+
+}
+.p.p-fifth{
+    background-color: #000000;
+    color: #fbfeff;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
